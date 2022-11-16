@@ -1,0 +1,8 @@
+.home-section {
+    background-color: $color-cardBackground;
+    .home-title {
+        @include font-title;
+    }
+    .home-subtitle {}
+    .home-p { color:red }
+}

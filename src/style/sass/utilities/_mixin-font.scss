@@ -1,0 +1,34 @@
+@mixin font-title {
+    font-family: $font-principal;
+    font-size: 25px;
+    font-weight: 600;
+    color: $color-primary;
+}
+
+@mixin font-subtitle {
+    font-family: $font-principal;
+    font-size: 20px;
+    font-weight: 500;
+    color: $color-secundary;
+}
+
+@mixin font-parrafo {
+    font-family: $font-principal;
+    font-size: 15px;
+    font-weight: 400;
+    color: $color-secundary;
+}
+
+@mixin font-specialNormal {
+    font-family: $font-special;
+    font-size: 15px;
+    font-weight: 400;
+    color: $color-tertiary;
+}
+
+@mixin font-specialSmall {
+    font-family: $font-special;
+    font-size: 8px;
+    font-weight: 400;
+    color: $color-tertiary;
+}
